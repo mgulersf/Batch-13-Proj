@@ -1,0 +1,14 @@
+SELECT id, name, Phone from contact
+
+SELECT id, name, project_name_c from Salesforce_projects
+
+SELECT Id, Name, Type, Industry, ParentId FROM Account where industry = 'energy' LIMIT 1
+
+select id, name, project_name__c, status__c from Salesforce_Project__c where status__c != 'new'
+
+select id, name, phone, accountnumber from account where phone != null and accountnumber != null
+
+
+select id, name, phone,AnnualRevenue, accountnumber, website from account where annualrevenue > 3000000
+
+select id, name, phone,AnnualRevenue, accountnumber, website from account where createddate > last_week
