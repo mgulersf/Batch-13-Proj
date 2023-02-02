@@ -1,4 +1,5 @@
 public  class ArthimaticCalculations {
+    // added new text
         public void addition ( integer x, integer y) {
         integer z = x+y;
         system.debug(' sum of ' + x + ' and ' + y + ' is ' + z);
